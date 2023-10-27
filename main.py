@@ -24,7 +24,13 @@ screen.onkey(snake.left,"Left")
 game_is_on = True
 while game_is_on:
     screen.update()
-    time.sleep(0.1)
+    if scoreboard.score<10:
+        time.sleep(0.1)
+    elif scoreboard.score<20:
+        time.sleep(0.07)
+    else:
+        time.sleep(0.04)
+
     snake.move()
 
     # Detect colission with food
