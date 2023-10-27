@@ -7,7 +7,7 @@ UP = 90
 DOWN = 270
 LEFT = 180
 RIGHT = 0
-SHAPE = 'circle'
+SHAPE = 'square'
 class Snake():
 
     def __init__(self):
