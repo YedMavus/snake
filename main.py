@@ -48,7 +48,4 @@ while game_is_on:
         #trigger game over
 
 
-
-
-
 screen.exitonclick()
