@@ -4,6 +4,7 @@ from food import Food
 from snake import Snake
 import time
 
+
 screen = Screen()
 screen.setup(width=600,height=600)
 screen.bgcolor('black')
@@ -22,7 +23,7 @@ screen.onkey(snake.left,"a")
 
 
 game_is_on = True
-    
+
 while game_is_on:
     screen.update()
     if scoreboard.score<10:
